@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>js03_soma.htm - somatoria</title>
+        <meta charset = "utf-8"/>
+    </head>
+
+    <body>
+        <h3>Somatória de dois números inteiros</h3>
+
+        <script language = "javascript">
+            /* Objetivo: Desenvolver um programa em JavaScript que faça a leitura de 2 números inteiros e
+            e apresentar o resultado da soma entre eles*/
+            
+            /* Definição de Variaveis*/
+            let js_n1
+            let js_n2
+            let js_soma
+
+            /* Entrada de Dados*/
+            js_n1 = window.prompt ('Informe o primeiro número: ', 'Digite aqui')
+            js_n2 = window.prompt ('Informe o segundo número: ', 'Digite aqui')
+
+            /* Processamento de Dados */
+            js_soma = parseInt(js_n1) + parseInt(js_n2)
+
+            /* Saida de Dados */
+            document.write ('O Resultado da soma = ' + js_soma)
+        </script>
+    </body>
+</html>
